@@ -1,12 +1,12 @@
-# 🚀 JavaScript Array & String Methods – Complete Solutions
+#  JavaScript Array & String Methods – Complete Solutions
 
 ---
 
-# ✅ SECTION 1 – Array Higher Order Methods
+#  SECTION 1 – Array Higher Order Methods
 
 ---
 
-## 🔹 Task 1 – forEach()
+##  Task 1 – forEach()
 
 ```javascript
 let subjects = ["Maths", "Science", "English", "History"];
@@ -24,7 +24,7 @@ Because `forEach()` only executes a function for each element. It does NOT retur
 
 ---
 
-## 🔹 Task 2 – map()
+##  Task 2 – map()
 
 ```javascript
 let prices = [100, 200, 300, 400];
@@ -37,7 +37,7 @@ console.log(newPrices);
 
 ---
 
-## 🔹 Task 3 – filter()
+##  Task 3 – filter()
 
 ```javascript
 let students = [
@@ -54,7 +54,7 @@ console.log(passedStudents);
 
 ---
 
-## 🔹 Task 4 – find()
+##  Task 4 – find()
 
 ```javascript
 let firstTopper = students.find(student => student.marks > 50);
@@ -69,7 +69,7 @@ console.log(firstTopper);
 
 ---
 
-## 🔹 Task 5 – reduce()
+##  Task 5 – reduce()
 
 ```javascript
 let cart = [
@@ -88,7 +88,7 @@ console.log("Total with 5% tax:", totalWithTax);
 
 ---
 
-## 🔹 Task 6 – some()
+##  Task 6 – some()
 
 ```javascript
 let numbers = [1, 3, 5, 7, 8];
@@ -100,7 +100,7 @@ console.log(hasEven); // true
 
 ---
 
-## 🔹 Task 7 – every()
+##  Task 7 – every()
 
 ```javascript
 let ages = [22, 25, 19, 30];
@@ -112,7 +112,7 @@ console.log(allAdults); // true
 
 ---
 
-## 🔹 Task 8 – sort()
+##  Task 8 – sort()
 
 ```javascript
 let salaries = [50000, 10000, 70000, 30000];
@@ -131,7 +131,7 @@ Because it sorts numbers as strings (alphabetical order).
 
 ---
 
-## 🔹 Task 9 – Array Conversion
+##  Task 9 – Array Conversion
 
 ```javascript
 let arr = [10, 20, 30, 40];
@@ -145,11 +145,11 @@ console.log(arr.join("-"));
 
 ---
 
-# ✅ SECTION 2 – String Methods
+#  SECTION 2 – String Methods
 
 ---
 
-## 🔹 Task 10 – charAt() & charCodeAt()
+##  Task 10 – charAt() & charCodeAt()
 
 ```javascript
 let word = "Developer";
@@ -160,7 +160,7 @@ console.log(word.charCodeAt(4));  // 108
 
 ---
 
-## 🔹 Task 11 – slice()
+##  Task 11 – slice()
 
 ```javascript
 let company = "StacklyCompany";
@@ -171,7 +171,7 @@ console.log(result); // Company
 
 ---
 
-## 🔹 Task 12 – Case Conversion
+##  Task 12 – Case Conversion
 
 ```javascript
 let userInput = "javaScript";
@@ -182,7 +182,7 @@ console.log(userInput.toLowerCase());
 
 ---
 
-## 🔹 Task 13 – trim()
+##  Task 13 – trim()
 
 ```javascript
 let email = "   naveen@gmail.com   ";
@@ -192,7 +192,7 @@ console.log(email.trim());
 
 ---
 
-## 🔹 Task 14 – includes()
+##  Task 14 – includes()
 
 ```javascript
 let message = "Welcome to JavaScript Training";
@@ -202,7 +202,7 @@ console.log(message.includes("JavaScript")); // true
 
 ---
 
-## 🔹 Task 15 – split()
+##  Task 15 – split()
 
 ```javascript
 let movie = "spider-man-no-way-home";
@@ -214,7 +214,7 @@ console.log(movieArray);
 
 ---
 
-## 🔹 Task 16 – indexOf() & lastIndexOf()
+##  Task 16 – indexOf() & lastIndexOf()
 
 ```javascript
 let text = "programming";
@@ -225,7 +225,7 @@ console.log(text.lastIndexOf("m"));  // 7
 
 ---
 
-## 🔹 Task 17 – replace()
+##  Task 17 – replace()
 
 ```javascript
 let tech = "I love python";
@@ -237,7 +237,7 @@ console.log(updated);
 
 ---
 
-## 🔹 Task 18 – startsWith() & endsWith()
+##  Task 18 – startsWith() & endsWith()
 
 ```javascript
 let filename = "report.pdf";
@@ -248,7 +248,7 @@ console.log(filename.endsWith(".pdf"));     // true
 
 ---
 
-## 🔹 Task 19 – repeat()
+##  Task 19 – repeat()
 
 ```javascript
 let star = "*";
@@ -259,7 +259,7 @@ console.log(star.repeat(10));
 
 ---
 
-# 🏆 FINAL TEAM CHALLENGE – Employee Report System
+#  FINAL TEAM CHALLENGE – Employee Report System
 
 ```javascript
 let employees = [
